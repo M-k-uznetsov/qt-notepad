@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+        <syntaxes>
+                <syntax id = "C++" name = "C++ language" ext_list = "cpp cxx cc h hh hpp hxx ino">
+                        <rule>
+                                <pattern value = "\bclass\b"/>
+                                <format foreground="#00008B" font_weight="75"/>
+                        </rule>
+
+                        <rule>
+                                <pattern value = "//[^.*]*"/>
+                                <format foreground="#008000" font_weight="75"/>
+                        </rule>
+
+                        <rule>
+                               <pattern value = "#"/>
+                               <format foreground="#FF00CC" font_weight="75"/>
+                        </rule>
+
+                        <rule>
+                               <pattern value = "\binclude\b"/>
+                               <format foreground="#FF00CC" font_weight="75"/>
+                        </rule>
+
+                        <rule>
+                               <pattern value = "\bifndef\b"/>
+                               <format foreground="#FF00CC" font_weight="75"/>
+                        </rule>
+
+                        <rule>
+                               <pattern value = "\bdefine\b"/>
+                               <format foreground="#FF00CC" font_weight="75"/>
+                        </rule>
+
+                        <rule>
+                               <pattern value = "\bendif\b"/>
+                               <format foreground="#FF00CC" font_weight="75"/>
+                        </rule>
+
+                        <rule>
+                               <pattern value = "\bint\b"/>
+                               <format foreground="#3333CC" font_weight="75"/>
+                        </rule>
+
+                        <rule>
+                               <pattern value = "\bfloat\b"/>
+                               <format foreground="#3333CC" font_weight="75"/>
+                        </rule>
+
+                        <rule>
+                               <pattern value = "\bdouble\b"/>
+                               <format foreground="#3333CC" font_weight="75"/>
+                        </rule>
+
+                        <rule>
+                               <pattern value = "\bvoid\b"/>
+                               <format foreground="#3333CC" font_weight="75"/>
+                        </rule>
+
+                        <rule>
+                               <pattern value = "\bbool\b"/>
+                               <format foreground="#3333CC" font_weight="75"/>
+                        </rule>
+
+                        <rule>
+                               <pattern value = "\bprivate\b"/>
+                               <format foreground="#6666FF" font_weight="75"/>
+                        </rule>
+
+                        <rule>
+                               <pattern value = "\bprotected\b"/>
+                               <format foreground="#6666FF" font_weight="75"/>
+                        </rule>
+
+                        <rule>
+                               <pattern value = "\bpublic\b"/>
+                               <format foreground="#6666FF" font_weight="75"/>
+                        </rule>
+
+                        <rule>
+                               <pattern value = "\bsignals\b"/>
+                               <format foreground="#FF99CC" font_weight="75"/>
+                        </rule>
+
+                        <rule>
+                               <pattern value = "\bslots\b"/>
+                               <format foreground="#191970" font_weight="75"/>
+                        </rule>
+
+                        <rule>
+                               <pattern value = "\bQApplication\b"/>
+                               <format foreground="#008000" font_weight="75"/>
+                        </rule>
+
+                        <rule>
+                               <pattern value = "\breturn\b"/>
+                               <format foreground="#FF0000" font_weight="75"/>
+                        </rule>
+
+			<rule>
+                               <pattern value = "\bif\b"/>
+                               <format foreground="#FF0000" font_weight="75"/>
+                        </rule>
+
+			<rule>
+                               <pattern value = "\bfor\b"/>
+                               <format foreground="#FF0000" font_weight="75"/>
+                        </rule>
+
+			<rule>
+                               <pattern value = "\belse\b"/>
+                               <format foreground="#FF0000" font_weight="75"/>
+                        </rule>
+
+			<rule>
+                               <pattern value = "\bbreak\b"/>
+                               <format foreground="#FF0000" font_weight="75"/>
+                        </rule>
+
+			<rule>
+                               <pattern value = "\bwhile\b"/>
+                               <format foreground="#FF0000" font_weight="75"/>
+                        </rule>
+
+			<rule>
+                               <pattern value = "\bdo\b"/>
+                               <format foreground="#FF0000" font_weight="75"/>
+                        </rule>
+
+                        <rule>
+                               <pattern value = "\bchar\b"/>
+                               <format foreground="#DEB887" font_weight="75"/>
+                        </rule>
+                </syntax>
+        </syntaxes>
+</settings>
+
